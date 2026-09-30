@@ -8,3 +8,4 @@ Thumbs.db
 # Respaldo y temporales de bases de datos
 *.dump
 *.sql.bak
+clean/loans_subset.csv
