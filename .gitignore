@@ -9,3 +9,4 @@ Thumbs.db
 *.dump
 *.sql.bak
 clean/loans_subset.csv
+clean/loans_subset.csv
