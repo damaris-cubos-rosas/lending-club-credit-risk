@@ -1,0 +1,10 @@
+# Datos originales (muy pesados; se enlaza la fuente en el README)
+raw/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Respaldo y temporales de bases de datos
+*.dump
+*.sql.bak
