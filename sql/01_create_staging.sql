@@ -1,0 +1,33 @@
+DROP TABLE IF EXISTS loans_raw;
+
+CREATE TABLE loans_raw (
+    id                      TEXT,
+    loan_amnt               TEXT,
+    funded_amnt             TEXT,
+    term                    TEXT,
+    int_rate                TEXT,
+    installment             TEXT,
+    grade                   TEXT,
+    sub_grade               TEXT,
+    emp_length              TEXT,
+    home_ownership          TEXT,
+    annual_inc              TEXT,
+    verification_status     TEXT,
+    issue_d                 TEXT,
+    loan_status             TEXT,
+    purpose                 TEXT,
+    addr_state              TEXT,
+    dti                     TEXT,
+    delinq_2yrs             TEXT,
+    earliest_cr_line        TEXT,
+    fico_range_low          TEXT,
+    fico_range_high         TEXT,
+    inq_last_6mths          TEXT,
+    open_acc                TEXT,
+    revol_util              TEXT,
+    total_pymnt             TEXT,
+    total_rec_prncp         TEXT,
+    recoveries              TEXT,
+    collection_recovery_fee TEXT,
+    last_pymnt_d            TEXT
+);
