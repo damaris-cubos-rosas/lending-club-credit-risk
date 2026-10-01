@@ -1,0 +1,36 @@
+dimension,segment,loans,avg_interest_rate_pct,default_rate_pct,gross_return_pct
+DTI band,0) no data,7,16.20,14.29,15.33
+DTI band,1) <10,131474,11.83,11.46,9.75
+DTI band,2) 10-19.9,290697,12.22,13.61,10.00
+DTI band,3) 20-29.9,199902,12.82,17.28,9.07
+DTI band,4) 30-39.9,51444,13.87,20.61,8.39
+DTI band,5) 40+,29,16.06,27.59,6.79
+FICO band,1) <680,232071,14.28,19.07,9.18
+FICO band,2) 680-699,184487,13.06,15.89,9.98
+FICO band,3) 700-719,122885,11.54,12.39,10.34
+FICO band,4) 720-739,65249,10.10,9.80,9.48
+FICO band,5) 740-779,51536,8.74,7.36,8.49
+FICO band,6) 780+,17325,7.63,4.68,7.61
+Home ownership,MORTGAGE,320799,12.04,12.62,10.51
+Home ownership,OTHER,191,13.59,17.80,12.34
+Home ownership,OWN,66808,12.47,15.49,8.77
+Home ownership,RENT,285755,12.90,17.12,8.41
+Income verification,Not Verified,218269,11.38,11.74,8.64
+Income verification,Source Verified,231941,12.11,14.88,8.70
+Income verification,Verified,223343,13.84,17.75,10.92
+Purpose,car,7786,11.53,11.84,8.80
+Purpose,credit_card,159056,11.08,12.24,9.67
+Purpose,debt_consolidation,385926,12.70,15.62,9.65
+Purpose,educational,326,11.65,17.18,5.24
+Purpose,home_improvement,39095,12.08,13.09,9.54
+Purpose,house,2990,15.04,18.43,9.11
+Purpose,major_purchase,14076,11.94,13.11,8.14
+Purpose,medical,7245,14.04,17.28,8.25
+Purpose,moving,4815,15.30,19.23,7.55
+Purpose,other,36375,14.52,16.95,9.93
+Purpose,renewable_energy,512,14.92,20.12,6.97
+Purpose,small_business,8635,15.55,24.40,5.95
+Purpose,vacation,4426,14.13,15.91,7.83
+Purpose,wedding,2290,14.14,12.14,13.65
+Term (months),36,618584,12.01,13.90,8.27
+Term (months),60,54969,17.35,25.16,18.80
