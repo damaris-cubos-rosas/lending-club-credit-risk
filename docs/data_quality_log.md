@@ -15,3 +15,7 @@
 | 11 | `dti` vacío | 374 | Conservado como `NULL` |
 | 12 | `revol_util` > 100 (máx 892.3) | 4,687 | Conservado; reportar mediana |
 | 13 | `revol_util` vacío | 857 | Conservado como `NULL` |
+| 14 | Diferencia entre préstamos emitidos y cerrados en 2013 sin explicar (probablemente préstamos a 60 meses de finales de 2013 aún vigentes; no verificado) | 10 | Se dejan fuera por no tener desenlace |
+| 15 | El total de `issued_by_year` (2,260,668) es 33 menor que el del archivo original (2,260,701); probablemente son las 33 filas sin estatus ni fecha (no verificado) | 33 | Sin acción |
+| 16 | El archivo no indica la fecha exacta de corte de los datos | todas | Supuesto: 31 de diciembre de 2018, para decidir si el plazo de un préstamo ya venció (vista `loans_mature`) |
+| 17 | `total_pymnt` incluye `recoveries` (verificado); la comisión de cobranza se resta aparte (deducción no confirmada en el diccionario de datos) | 184,684 | No se suman las recuperaciones dos veces |
